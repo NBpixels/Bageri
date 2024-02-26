@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Marcellus&display=swap');
+
+body {
+    background-color: #F8F6F0;
+}
+
+/*navbar*/
+nav {
+    background-color: #B6C09B;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-right {
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.top-right a {
+    margin: 15px;
+    font-size: 20px;
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #31312F;
+    text-decoration: none;
+}
+
+.top-left {
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.top-left a {
+    margin: 15px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #31312F;
+    text-decoration: none;
+}
+
+.top-right a:hover {
+    text-decoration: underline;
+    text-decoration-color: #FEA24E;
+}
+
+.navbar img {
+    max-width: 60px;
+    height: auto;
+    margin-left: 15px;
+}
+
+/*main*/
+main h1 {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#31312F;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    border-color:#B6C09B;
+    border-width: 2px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+main h2 {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#FEA24E;
+    font-size: 40px;
+    display: flex;
+    justify-content: center; 
+}
+
+.daily-deal {
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+/*img*/
+.daily-deal img {
+    margin: 70px;
+    margin-top: 30px;
+}
+
+.deal-1 img {
+    max-width: 370px;
+    height: auto;
+}
+
+.deal-2 img {
+    max-width: 300px;
+    height: auto;
+}
+
+/*text*/
+.daily-deal p {
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #31312F;
+    font-size: 20px;
+    text-align: center;
+}
+
+.deal-1 p {
+    margin-top: -70px;
+}
+
+.deal-2 p {
+    margin-top: -30px;
+}
+
+/*button*/
+button {
+    background-color:#B6C09B;
+    box-shadow: none;
+    border: none;
+    width: 150px;
+    height: 50px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px
+}
+
+button a {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#31312F;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+button:hover {
+    width: 170px;
+    height: 50px;
+}
+
+/*footer*/
+footer {
+    background-color: #B6C09B;
+    margin-top: 50px;
+}
+
+.footer {
+    display: flex;
+}
+
+.kontakt {
+    display: flex;
+}
+
+.footer h1 {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#31312F;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.footer h2 {
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #31312F;
+    font-size: 15px;
+    margin-left: 40px;
+}
+
+.footer p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    margin-top: -10px;
+    color: #31312F;
+    margin-left: 40px;
+}
